@@ -1,7 +1,7 @@
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.devicesservice: /devices/**
-zuul.routes.rawdataservice: /licensing/**
+zuul.routes.rawdataservice: /raw/**
 zuul.routes.authenticationservice: /auth/**
 #zuul.routes.licensestatic.path: /licensestatic/**
 #zuul.routes.licensestatic.url:  http://licenseservice-static:8081
